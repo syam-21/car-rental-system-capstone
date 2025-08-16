@@ -1,59 +1,83 @@
-Car Rental System - Capstone Project Description
-This Car Rental System is a complete C programming project designed for managing vehicle rentals, including cars, buses, and bikes. It provides an easy-to-use console interface with two main user roles: Admin and Customer. The system helps automate bookings, track earnings, and manage vehicle availability efficiently.
+🚗 Car Rental System - Capstone Project
+📌 Overview
 
-Key Features
-1. User Management
-Registration & Login: Users can sign up as either customers or admins. Passwords are hidden for security.
+The Car Rental System is a console-based C programming project that helps manage vehicle rentals efficiently. It includes two roles – Admin and Customer – and supports cars, buses, and bikes. The system automates bookings, tracks earnings, and manages vehicle availability with file storage.
 
-Role-Based Access:
+✨ Features
+🔑 User Management
 
-Admin can:
+Registration & Login (hidden passwords)
 
-Add or remove vehicles (cars, buses, bikes).
+Role-based access (Admin / Customer)
 
-Set discounts for customers.
+👨‍💼 Admin Functions
 
-View all bookings and earnings reports.
+Add / remove vehicles
 
-Customer can:
+Set discounts for customers
 
-Book rides by selecting vehicles, routes, and seats.
+View all bookings & earnings reports
 
-View and cancel their bookings.
+👤 Customer Functions
 
-2. Vehicle & Route Management
-Multiple Vehicle Types: Cars, buses, and bikes with different pricing.
+Book cars, buses, or bikes
 
-Predefined Routes: Fixed routes with distance-based fares (e.g., Dhaka to Chittagong).
+Select routes & seats (bus seat selection like A1, B2)
 
-Seat Selection (For Buses): Customers can choose specific seats (like A1, B2) with real-time availability checks.
+Cancel bookings anytime
 
-3. Booking System
-Easy Booking Process: Customers pick a vehicle, route, date, and time to book.
+Get a ticket with unique booking ID
 
-Discount Application: Admins can set special discounts (e.g., 10% off).
+🚌 Vehicle & Route Management
 
-Ticket Generation: Each booking gets a unique ID with details (fare, seat, date).
+Multiple vehicle types with pricing
 
-Cancellation: Customers can cancel bookings, freeing up seats.
+Predefined routes (e.g., Dhaka → Chittagong)
 
-4. Admin Dashboard
-Revenue Tracking: Shows total earnings from all rentals.
+Distance-based fare calculation
 
-Daily Reports: Checks how much money was made today.
+📊 Admin Dashboard
 
-Vehicle Management: Add, remove, or update vehicles.
+Revenue tracking & daily reports
 
-5. Technical Details
-File Storage: All data (users, bookings, vehicles) is saved in files.
+Vehicle management (add, update, remove)
 
-Simple & Efficient: Uses basic C programming (structures, file handling, loops).
+⚙️ Technical Details
 
-Works Everywhere: Runs on Windows and Linux.
+Built in C programming
 
-Why This Project?
-✅ Great for Learning: Helps practice C programming, file handling, and menu systems.
-✅ Real-World Use: Useful for small rental businesses or transport services.
-✅ Easy to Modify: New features (like payment systems) can be added.
+Uses file handling for storing users, bookings, and vehicles
 
-This project is perfect for students or beginners who want to build a functional C program with real-world applications.
+Works on Windows & Linux
+
+🎯 Why This Project?
+
+✅ Great for learning C, file handling, and menu-driven systems
+✅ Real-world use for small rental businesses
+✅ Easy to extend (e.g., add online payments)
+
+▶️ How to Run
+
+Compile with GCC or any C compiler:
+
+gcc car_rental.c -o car_rental
+./car_rental
+
+
+Use the console menu to register as Admin or Customer.
+
+Start booking or managing vehicles.
+
+📂 File Storage
+
+users.txt → Stores login details
+
+vehicles.txt → Stores vehicles and routes
+
+bookings.txt → Stores booking records
+
+earnings.txt → Stores earnings data
+
+📜 License
+
+This project is open-source and free to use for educational purposes.
